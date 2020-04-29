@@ -1,0 +1,6 @@
+server {
+     listen 80 dupeljan.fvds.ru;
+     listen [::]:80 default_s;
+     root /var/www/html;
+     server_name example.com www.example.com;
+ }
